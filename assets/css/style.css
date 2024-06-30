@@ -138,7 +138,7 @@
 
 .nav-btn:hover {
     color: #2C49FE;
-    background-color: white;
+    background: none;
 }
 
 .layer::after {
@@ -225,6 +225,11 @@
     border: none;
     padding: 11px 28px;
     border-radius: 28px;
+    transition: all .5s ease-in-out;
+}
+.get:hover{
+    background: none;
+    color: #2C49FE;
 }
 .mb-145{
     margin-bottom: 145px;
@@ -243,6 +248,10 @@
     letter-spacing: 0em;
     color: #ffffffff;
     text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+.link:hover{
+    text-decoration: underline;
 }
 
 .gap23 {
@@ -858,6 +867,7 @@
         width: 3px;
         background-color: white;
         left: 50%;
+        display: none;
     }
 
     .bluebox::before {
@@ -867,6 +877,7 @@
         width: 100%;
         background-color: white;
         top: 50%;
+        display: none;
     }
 
    
@@ -967,6 +978,9 @@
 
     .mt-195 {
         margin-top: 195px;
+    }
+    .whiteline{
+        margin-bottom: 20px;
     }
 }
 
