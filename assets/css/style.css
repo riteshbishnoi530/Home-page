@@ -377,6 +377,7 @@
     background: white;
     margin-top: 50px;
     border: 2px solid #2C49FE;
+    transition: all 1s ease-in-out;
 }
 
 .card:hover {
@@ -610,6 +611,7 @@
     letter-spacing: 0em;
     text-align: left;
     margin-top: 20px;
+    outline: none;
 }
 
 .mt-20 {
@@ -644,7 +646,6 @@
     font-weight: 700;
     line-height: 53px;
     letter-spacing: 0em;
-    text-align: left;
     margin-top: 15px;
 }
 
@@ -663,6 +664,7 @@
     letter-spacing: 0em;
     text-align: left;
     margin-top: 20px;
+    outline: none;
 }
 
 .entry {
@@ -681,6 +683,7 @@
     margin-top: 20px;
     resize: none;
     padding-top: 8px;
+    outline: none;
 
 }
 
@@ -700,6 +703,7 @@
     width: 100%;
     border: 1px solid blue;
     cursor: pointer;
+    transition: all .6s ease-in-out;
 }
 
 .sec-4-btn:hover {
@@ -795,6 +799,7 @@
     text-align: center;
     color: white;
     text-decoration: none;
+    transition:all .6s ease-in-out ;
 }
 
 .gallery {
@@ -807,6 +812,7 @@
     color: white;
     margin-top: 60px;
     margin-bottom: 24px;
+    transition: all 1s ;
 }
 
 .mb-40 {
@@ -814,8 +820,7 @@
 }
 
 .show:hover {
-    background-color: white;
-    color: black;
+    background-color:#2C49FE;
     cursor: pointer;
 }
 
