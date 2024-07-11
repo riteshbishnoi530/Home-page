@@ -912,8 +912,8 @@
     .bluebox::after {
         content: '';
         position: absolute;
-        height: 0%;
-        width: 0px;
+        height: 100%;
+        width: 2px;
         background-color: transparent;
         left: 50%;
     }
@@ -921,8 +921,8 @@
     .bluebox::before {
         content: '';
         position: absolute;
-        height: 0px;
-        width: 0px;
+        height: 100px;
+        width: 2px;
         background-color: transparent;
         top: 50%;
     }
